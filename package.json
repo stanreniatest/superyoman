@@ -2,7 +2,6 @@
   "name": "mytests",
   "version": "0.0.0",
   "dependencies": {
-  "gulp": "~3.9.0"
   },
   "scripts": {
     "test": "gulp test"
@@ -51,6 +50,6 @@
     "wrench": "~1.5.8"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   }
 }
