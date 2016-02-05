@@ -2,7 +2,8 @@
   "name": "mytests",
   "version": "0.0.0",
   "dependencies": {
-  "gulp": "~3.9.0"
+  "gulp": "~3.9.0",
+  "wrench": "~1.5.8"
   },
   "scripts": {
     "test": "gulp test"
