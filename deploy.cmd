@@ -118,7 +118,7 @@ IF EXIST "%DEPLOYMENT_TARGET%\bower.json" (
 :: 5. Run gulp transformations
 IF EXIST "%DEPLOYMENT_TARGET%\gulpfile.js" (
   pushd "%DEPLOYMENT_TARGET%"
-  call :ExecuteCmd .\node_modules\.bin\gulp serve
+  call :ExecuteCmd .\node_modules\.bin\gulp
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
